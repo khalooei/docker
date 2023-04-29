@@ -50,6 +50,11 @@ docker run -v /HostPath:/insidePath -p 1000:8000 my_image
 docker container run -it my_image my_command
 ```
 
+* Create a container from specific image and detach it (Run in the background)
+```
+docker run -d -p 1000:8000 --rm --name my_image my_image:latest
+```
+
 * Show list of my active containers
 ```
 docker ps
