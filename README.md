@@ -4,14 +4,14 @@
 
 Docker is a platform for virtualization that helps developers and software engineers to run their applications in a separate and isolated environment. With Docker, you can define the software infrastructure needed to run your application in a separate and standardized way and package it with your application into a portable and self-sufficient unit called a Container.
 
-![Docker داکر](./overview.gif)
+![Docker](./overview.gif)
 
 
 This technology provides features such as isolation, fast configuration, and easy mobility between development and production environments. By using Docker, you only need to define a Docker container for your application and its required runtime environment, package it into a portable bundle, and then run it on any Docker-compatible system.
 
 The use of Docker not only reduces installation and configuration time but also allows you to run your applications on platforms that have different characteristics such as different operating systems, versions, and libraries.
 
-![Docker داکر](./imgs.gif)
+![Docker](./imgs.gif)
 
 <h1>Better accessibility</h1>
 To deal with internet problems, you can use the following mirrors in the `nano /etc/docker/daemon.json` config file as below:
