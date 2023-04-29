@@ -108,11 +108,25 @@ docker run hello-world
 docker image build . -t my_repo/my_image:my_tag
 ```
 
+* Build Docker image from DockerFile
+```
+docker build -t my_repo/my_image:my_tag -f Dockerfile .
+```
+
+* Create a backup
+```
+docker save --output bk_khalooei.tar my_image:latest
+```
+
+* Load a docker image
+```
+docker load --input bk_khalooei.tar
+```
+
 * More information about Docker Image
 ```
 docker inspect <imagename>
 ```
-
 <hr>
 
 ### Volume
