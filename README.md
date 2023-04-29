@@ -113,12 +113,12 @@ docker image build . -t my_repo/my_image:my_tag
 docker build -t my_repo/my_image:my_tag -f Dockerfile .
 ```
 
-* Create a backup
+* Create a backup from docker image
 ```
 docker save --output bk_khalooei.tar my_image:latest
 ```
 
-* Load a docker image
+* Load a docker image 
 ```
 docker load --input bk_khalooei.tar
 ```
