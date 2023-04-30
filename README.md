@@ -15,11 +15,13 @@ The use of Docker not only reduces installation and configuration time but also 
 
 <h1>Better accessibility</h1>
 The following mirrors can be used in nano `/etc/docker/daemon.json` to resolve internet problems:
+
 ```
 {
   "registry-mirrors": ["https://docker.iranserver.com"]
 }
 ```
+
 Then, you can run the following commands:
 ```
 systemctl daemon-reload
