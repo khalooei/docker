@@ -14,8 +14,7 @@ The use of Docker not only reduces installation and configuration time but also 
 ![Docker](./imgs.gif)
 
 <h1>Better accessibility</h1>
-To deal with internet problems, you can use the following mirrors in the `nano /etc/docker/daemon.json` config file as below:
-
+The following mirrors can be used in nano `/etc/docker/daemon.json` to resolve internet problems:
 ```
 {
   "registry-mirrors": ["https://docker.iranserver.com"]
