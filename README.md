@@ -38,8 +38,10 @@ docker container run my_image
 
 * Creating a container from a special image and binding Docker port 8000 to 1000
 ```
-docker run -i -t -p 1000:8000 --rm my_image
+docker run -i -t -p 1000:8000 --rm my_image /bin/bash
 ```
+
+     :warning: You can use `/bin/bash` to have a better experience!
 
 * Creating a container from a special image and binding Docker port 8000 to 1000 host and bind mounting the `/HostPath` folder of the host to `/insidePath` of the container
 ```
