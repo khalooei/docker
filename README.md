@@ -18,7 +18,7 @@ The following mirrors can be used in nano `/etc/docker/daemon.json` to resolve i
 
 ```
 {
-  "registry-mirrors": ["https://docker.iranserver.com"]
+  "registry-mirrors": ["https://docker.iranrepo.ir", "https://docker.arvancloud.ir", "https://docker.iranserver.com"]
 }
 ```
 
