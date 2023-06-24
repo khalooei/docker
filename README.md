@@ -93,6 +93,10 @@ docker logs CONTAINER_ID
 docker kill CONTAINER_ID
 ```
 
+* Create new snapshot from running container
+```
+docker commit CONTAINER_ID new_image_name
+```
 <hr>
 
 ### Image
