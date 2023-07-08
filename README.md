@@ -97,6 +97,16 @@ docker kill CONTAINER_ID
 ```
 docker commit CONTAINER_ID new_image_name
 ```
+
+* Change timezone of container
+```
+ sudo rm -rf /etc/localtime
+ ln -s /usr/share/zoneinfo/Asia/Tehran /etc/localtime
+
+ # you can check it now :)
+ date
+```
+
 <hr>
 
 ### Image
