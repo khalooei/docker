@@ -12,8 +12,8 @@ This technology provides features such as isolation, fast configuration, and eas
 The use of Docker not only reduces installation and configuration time but also allows you to run your applications on platforms that have different characteristics such as different operating systems, versions, and libraries.
 
 ![Docker](./imgs.gif)
-
 <h1>Better accessibility</h1>
+
 The following mirrors can be used in nano `/etc/docker/daemon.json` to resolve internet problems:
 
 ```
